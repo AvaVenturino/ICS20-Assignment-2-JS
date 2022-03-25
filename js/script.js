@@ -15,5 +15,5 @@ function calculate () {
   const circumference = 2 *(3.14159 * radius)
   // output
 document.getElementById("circumference").innerHTML =
-    "The circumference is: " + circumference + ' cm²' 
+    "The circumference is: " + circumference.toFixed(2) + ' cm²' 
 }
