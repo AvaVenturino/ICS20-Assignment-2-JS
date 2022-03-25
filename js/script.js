@@ -12,7 +12,7 @@ function calculate () {
   // input
   const radius = parseInt(document.getElementById("radius-of-circle").value)
   // process
-  const circumference = 2 *(π * radius)
+  const circumference = 2 *(3.14159 * radius)
   // output
 document.getElementById("circumference").innerHTML =
     "The circumference is: " + circumference + ' cm²' 
