@@ -17,6 +17,3 @@ function calculate () {
 document.getElementById("circumference").innerHTML =
     "The circumference is: " + circumference.toFixed(2) + ' cm²' 
 }
-
-i am so stupid and i am a simp
-because i am an ava
